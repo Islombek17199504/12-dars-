@@ -52,16 +52,57 @@
    
     
 
-mahsulotlar =[]
+# mahsulotlar =[]
+
+# while True:
+#     buyurtma = input('Mahsulot buyurtma bering:::>>> ')   
+#     mahsulotlar.append(buyurtma)
+    
+#     javob = input('Yana mahsulot qushasizmi,(ha\yoq)::>>>')
+#     if javob != 'ha':
+#         break
+# #         break
+# print(mahsulotlar)
+
+# mahsulotlar = {}
+# while True:
+#     mahsulot = input("Mahsulot nomini kiriting: ")
+#     narh = input(f"{mahsulot.title()}ning narhini kiriting: ")
+#     mahsulotlar[mahsulot] = narh
+#     javob = input("Yana mahsulot qo'shasizmi?(ha/yo'q)")
+#     if javob != 'ha':
+#         break
+
+mahsulotlar = {}
 
 while True:
-    buyurtma = input('Mahsulot buyurtma bering:::>>> ')   
-    mahsulotlar.append(buyurtma)
-    
-    javob = input('Yana mahsulot qushasizmi,(ha\yoq)::>>>')
+    mahsulot = input("Mahsulotni nomini kiriting:::>>> ")
+    narh = input(f"{mahsulot.title()}ning narhini kiriitng:::>>>")
+    mahsulotlar[mahsulot] = narh
+    javob = input('Yana mahsulot kiritasizmi,(ha\yoq):::>>> ')
     if javob != 'ha':
         break
-    print(mahsulotlar)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
