@@ -1,0 +1,1 @@
+from uzwords import words
